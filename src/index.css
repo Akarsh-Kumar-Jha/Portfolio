@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #0c0c1d;
+  color:lightgray;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+section{
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: center;
+  overflow:hidden;
+}
